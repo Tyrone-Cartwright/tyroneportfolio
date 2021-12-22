@@ -169,7 +169,7 @@ const Resume = (props) => {
       />
       <ResumeHeading
         heading='Family'
-        description='I love family time taking drives to watch the foliage across New England or having a barbeque tih family and friends or just watching a great movie together.'
+        description='I love family time taking drives to watch the foliage across New England or having a barbeque with family and friends or just watching a great movie together.'
       />
     </div>,
   ];
