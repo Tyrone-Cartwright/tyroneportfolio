@@ -44,7 +44,7 @@ export default function ContactMe(props) {
         message,
       };
       setBool(true);
-      const res = await axios.post(`/contact`, data);
+      const res = await axios.post('/contact', data);
       if (name.length === 0 || email.length === 0 || message.length === 0) {
         setBanner(res.data.msg);
         toast.error(res.data.msg);
@@ -74,10 +74,10 @@ export default function ContactMe(props) {
               steps={[
                 'Get In Touch 🤝',
                 1000,
-                'Email me and 📧',
-                1000,
-                'get your job done ✅',
-                1000,
+                'Email Me 📧',
+                1100,
+                'MERN Stack Developer ✅',
+                1200,
               ]}
             />
           </h2>{' '}
